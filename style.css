@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+  margin: 0px;
+}
+/* h1 제목 padding top을 통해 내용을 가운데로 이동 */
+h1 {
+  margin: 0px;
+  padding-top: 50px;
+}
+/* span 색상 지정 */
+h3 > span {
+  color: rgb(90, 165, 226);
+}
+/* 내용의 배경색 지정, 가운데 정렬, 크기 지정 */
+.container {
+  background-color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+  margin-top: 100px;
+  border-radius: 30px;
+}
+/* p 색상 지정 */
+.header p {
+  color: grey;
+}
+/* 로또 번호 결과를 띄울 창 가운데 정렬, flex지정, 크기 지정 */
+.result {
+  background-color: white;
+  width: 395px;
+  height: 100px;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+/* 공 모양 지정 */
+.ball {
+  border-radius: 50%;
+  padding: 15px;
+  width: 20px;
+  color: white;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-weight: bold;
+}
+/* 버튼 모양 지정 */
+#btn {
+  cursor: pointer;
+  width: 100px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(90, 165, 226);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  color: white;
+  transition: all 1s;
+}
+/* 버튼에 마우스가 올라갈 경우 색상 변경 */
+#btn:hover {
+  transition: all 1s;
+  background-color: #364595;
+}
+/* 공의 배경색 지정 */
+.bg-r {
+  background-color: #f17a61;
+}
+.bg-grn {
+  background-color: #329c2a;
+}
+.bg-b {
+  background-color: #8cd0f3;
+}
+.bg-y {
+  background-color: #eacc2f;
+}
+.bg-g {
+  background-color: #cdcdcd;
+}
